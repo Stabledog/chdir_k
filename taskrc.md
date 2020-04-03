@@ -21,6 +21,14 @@ function run {
     #Help
     dc run --rm chdir_test
 }
+function main {
+    #Help
+    build
+    run
+}
+
+alias mainloop='loop main'
+#Help
 
 
 ```
